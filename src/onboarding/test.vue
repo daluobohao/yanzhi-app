@@ -1,0 +1,1 @@
+/Users/haowang/projects/yanzhi-app/src/pages/onboarding/test.vue

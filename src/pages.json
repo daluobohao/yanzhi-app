@@ -1,0 +1,138 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "index",
+      "style": {
+        "navigationBarTitleText": "言值",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "onboarding/intro",
+      "style": {
+        "navigationBarTitleText": "欢迎使用言值"
+      }
+    },
+    {
+      "path": "onboarding/scene-select",
+      "style": {
+        "navigationBarTitleText": "选择训练场景"
+      }
+    },
+    {
+      "path": "onboarding/self-assess",
+      "style": {
+        "navigationBarTitleText": "自评当前水平"
+      }
+    },
+    {
+      "path": "onboarding/time-select",
+      "style": {
+        "navigationBarTitleText": "选择每日时间"
+      }
+    },
+    {
+      "path": "onboarding/test",
+      "style": {
+        "navigationBarTitleText": "入组测评"
+      }
+    },
+    {
+      "path": "record",
+      "style": {
+        "navigationBarTitleText": "开始训练",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "feedback",
+      "style": {
+        "navigationBarTitleText": "训练反馈"
+      }
+    },
+    {
+      "path": "training/scenes",
+      "style": {
+        "navigationBarTitleText": "场景训练"
+      }
+    },
+    {
+      "path": "training/skills",
+      "style": {
+        "navigationBarTitleText": "技能训练"
+      }
+    },
+    {
+      "path": "training/challenge",
+      "style": {
+        "navigationBarTitleText": "挑战模式"
+      }
+    },
+    {
+      "path": "profile",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "profile/radar",
+      "style": {
+        "navigationBarTitleText": "能力雷达图"
+      }
+    },
+    {
+      "path": "profile/trends",
+      "style": {
+        "navigationBarTitleText": "训练趋势"
+      }
+    },
+    {
+      "path": "profile/badges",
+      "style": {
+        "navigationBarTitleText": "成就徽章"
+      }
+    },
+    {
+      "path": "profile/plan",
+      "style": {
+        "navigationBarTitleText": "训练计划"
+      }
+    },
+    {
+      "path": "profile/level",
+      "style": {
+        "navigationBarTitleText": "口才等级"
+      }
+    },
+    {
+      "path": "member",
+      "style": {
+        "navigationBarTitleText": "会员中心"
+      }
+    },
+    {
+      "path": "tips-index",
+      "style": {
+        "navigationBarTitleText": "技巧库"
+      }
+    },
+    {
+      "path": "tips/detail",
+      "style": {
+        "navigationBarTitleText": "技巧详情"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "言值",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFF8F0"
+  }
+}
